@@ -25,6 +25,9 @@ struct ContentView: View {
                     NavigationLink(destination: AlignmentAnimation()) {
                         Text("Alignment Change")
                     }
+                    NavigationLink(destination: PositionInGeometryReader()) {
+                        Text("Position Change in Geometry Reader")
+                    }
                 }
                 
                 Section(header: Text("Color Change Animations")) {
