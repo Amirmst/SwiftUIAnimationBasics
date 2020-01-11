@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB19C9FA23C9CFED0042ED7E /* TextAndAnimatingRectangleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB19C9F923C9CFED0042ED7E /* TextAndAnimatingRectangleColor.swift */; };
 		AB19C9FC23C9D3C40042ED7E /* HueRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB19C9FB23C9D3C40042ED7E /* HueRotationAnimation.swift */; };
+		AB19C9FF23C9D6BA0042ED7E /* AlignmentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB19C9FE23C9D6BA0042ED7E /* AlignmentAnimation.swift */; };
 		AB1B015123C9B7BD00CF4A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B015023C9B7BD00CF4A0E /* AppDelegate.swift */; };
 		AB1B015323C9B7BD00CF4A0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B015223C9B7BD00CF4A0E /* SceneDelegate.swift */; };
 		AB1B015523C9B7BD00CF4A0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B015423C9B7BD00CF4A0E /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		AB19C9F923C9CFED0042ED7E /* TextAndAnimatingRectangleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndAnimatingRectangleColor.swift; sourceTree = "<group>"; };
 		AB19C9FB23C9D3C40042ED7E /* HueRotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationAnimation.swift; sourceTree = "<group>"; };
+		AB19C9FE23C9D6BA0042ED7E /* AlignmentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentAnimation.swift; sourceTree = "<group>"; };
 		AB1B014D23C9B7BD00CF4A0E /* SwiftUIAnimationsBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimationsBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1B015023C9B7BD00CF4A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB1B015223C9B7BD00CF4A0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				AB1B016A23C9BC7600CF4A0E /* MovingViewAnimation.swift */,
 				AB1B017023C9CCE300CF4A0E /* DiagonalMovingAnimation.swift */,
 				AB1B016C23C9C06D00CF4A0E /* AnimationCurvesSideBySide.swift */,
+				AB19C9FE23C9D6BA0042ED7E /* AlignmentAnimation.swift */,
 			);
 			path = AnimatingPosition;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				AB1B016723C9BA5100CF4A0E /* SubtitleText.swift in Sources */,
 				AB1B015123C9B7BD00CF4A0E /* AppDelegate.swift in Sources */,
 				AB1B016F23C9C96400CF4A0E /* TextAndAnimatingCircleView.swift in Sources */,
+				AB19C9FF23C9D6BA0042ED7E /* AlignmentAnimation.swift in Sources */,
 				AB1B016B23C9BC7600CF4A0E /* MovingViewAnimation.swift in Sources */,
 				AB1B017523C9CF1E00CF4A0E /* ColorChangeAnimation.swift in Sources */,
 				AB1B016523C9B98B00CF4A0E /* TitleText.swift in Sources */,

@@ -21,7 +21,7 @@ struct MovingViewAnimation: View {
                 .foregroundColor(.orange)
                 .frame(width: 100, height: 100)
                 // change in position
-                .offset(x: 0, y: change ? 300 : 0)
+                .offset(x: 0, y: change ? 250 : 0)
                 .animation(.easeInOut)
             
             Spacer()

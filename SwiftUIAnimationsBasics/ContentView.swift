@@ -10,7 +10,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List {
+                Section(header: Text("Position Change Animations")) {
+                    NavigationLink(destination: MovingViewAnimation()) {
+                        Text("Vertical Position Change")
+                    }
+                    NavigationLink(destination: AnimationCurvesSideBySide()) {
+                        Text("Horizontal Position Change")
+                    }
+                    NavigationLink(destination: DiagonalMovingAnimation()) {
+                        Text("Diagonal Position Change")
+                    }
+                    NavigationLink(destination: AlignmentAnimation()) {
+                        Text("Alignment Change")
+                    }
+                }
+                
+                Section(header: Text("Color Change Animations")) {
+                    NavigationLink(destination: HueRotationAnimation()) {
+                        Text("Hue Rotation")
+                    }
+                    NavigationLink(destination: ColorChangeAnimation()) {
+                        Text("Color Change")
+                    }
+                }
+            }
+            .navigationBarTitle(Text("Animations"))
+            .listStyle(GroupedListStyle())
+        }
     }
 }
 

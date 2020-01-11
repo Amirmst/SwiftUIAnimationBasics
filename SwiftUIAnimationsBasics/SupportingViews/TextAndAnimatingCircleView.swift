@@ -21,7 +21,7 @@ struct TextAndAnimatingCircleView: View {
             
             Circle()
                 .foregroundColor(.orange)
-                .frame(width: 40, height: 40)
+                .frame(width: 20, height: 20)
                 .offset(x: move ? 150 : -150, y: 0)
                 .animation(animation)
         }

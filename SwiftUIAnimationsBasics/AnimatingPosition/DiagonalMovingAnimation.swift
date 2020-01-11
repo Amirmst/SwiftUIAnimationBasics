@@ -20,7 +20,7 @@ struct DiagonalMovingAnimation: View {
                 .foregroundColor(.orange)
                 .frame(width: 40, height: 40)
                 // change in position
-                .offset(x: change ? 150 : -150, y: change ? 600 : 0)
+                .offset(x: change ? 100 : -100, y: change ? 500 : 0)
                 .animation(.easeInOut(duration: 1))
             
             Spacer()

@@ -15,16 +15,15 @@ struct HueRotationAnimation: View {
         VStack(spacing: 20) {
             TitleText(title: "Animatable Properties")
             SubtitleText(subtitle: "Hue")
-            BannerText(text: "The change button triggers the change in hue.", backColor: Color.blue, textColor: Color.white)
+            BannerText(text: "The change button triggers the change in hue rotation angle.", backColor: Color.blue, textColor: Color.white)
             
             RoundedRectangle(cornerRadius: 20)
-                .frame(width: 400, height: 400)
+                .frame(width: 300, height: 300)
                 .padding(.top, 40)
                 .foregroundColor(.blue)
                 .hueRotation(Angle.degrees(change ? 170 : 0))
                 .animation(.easeInOut)
             
-            Spacer()
             
             Button(action: {self.change.toggle()} ) {
                 Text("Change")
