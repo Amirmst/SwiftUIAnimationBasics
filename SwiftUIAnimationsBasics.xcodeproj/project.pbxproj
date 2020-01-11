@@ -73,13 +73,8 @@
 				AB1B015023C9B7BD00CF4A0E /* AppDelegate.swift */,
 				AB1B015223C9B7BD00CF4A0E /* SceneDelegate.swift */,
 				AB1B015423C9B7BD00CF4A0E /* ContentView.swift */,
-				AB1B016A23C9BC7600CF4A0E /* MovingViewAnimation.swift */,
-				AB1B017023C9CCE300CF4A0E /* DiagonalMovingAnimation.swift */,
-				AB1B016C23C9C06D00CF4A0E /* AnimationCurvesSideBySide.swift */,
-				AB1B016E23C9C96400CF4A0E /* TextAndAnimatingCircleView.swift */,
-				AB1B016423C9B98B00CF4A0E /* TitleText.swift */,
-				AB1B016623C9BA5100CF4A0E /* SubtitleText.swift */,
-				AB1B016823C9BAA100CF4A0E /* BannerText.swift */,
+				AB1B017223C9CE9F00CF4A0E /* AnimatingPosition */,
+				AB1B017323C9CEC600CF4A0E /* SupportingViews */,
 				AB1B015623C9B7BF00CF4A0E /* Assets.xcassets */,
 				AB1B015B23C9B7BF00CF4A0E /* LaunchScreen.storyboard */,
 				AB1B015E23C9B7BF00CF4A0E /* Info.plist */,
@@ -94,6 +89,27 @@
 				AB1B015923C9B7BF00CF4A0E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB1B017223C9CE9F00CF4A0E /* AnimatingPosition */ = {
+			isa = PBXGroup;
+			children = (
+				AB1B016A23C9BC7600CF4A0E /* MovingViewAnimation.swift */,
+				AB1B017023C9CCE300CF4A0E /* DiagonalMovingAnimation.swift */,
+				AB1B016C23C9C06D00CF4A0E /* AnimationCurvesSideBySide.swift */,
+			);
+			path = AnimatingPosition;
+			sourceTree = "<group>";
+		};
+		AB1B017323C9CEC600CF4A0E /* SupportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				AB1B016E23C9C96400CF4A0E /* TextAndAnimatingCircleView.swift */,
+				AB1B016423C9B98B00CF4A0E /* TitleText.swift */,
+				AB1B016623C9BA5100CF4A0E /* SubtitleText.swift */,
+				AB1B016823C9BAA100CF4A0E /* BannerText.swift */,
+			);
+			path = SupportingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
