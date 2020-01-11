@@ -22,6 +22,7 @@ struct BannerText: View {
         Text(text)
             .font(.title)
             .frame(maxWidth: .infinity)
+            .multilineTextAlignment(.center)
         .padding()
         .background(backColor)
         .foregroundColor(textColor)
